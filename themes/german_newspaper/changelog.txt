@@ -1,0 +1,121 @@
+// $Id: changelog.txt,v 1.19 2010/04/11 16:55:36 christiangnoth Exp $
+
+
+German Newspaper 6.x-1.0.0   released on 06.06.2009
+===========================
+
+- Initial Drupal 6 release
+
+
+German Newspaper 6.x-1.1.0   released on 06.06.2009
+===========================
+
+- fixed some bugs
+
+
+
+German Newspaper 6.x-1.2.0   released on 06.06.2009
+===========================
+
+- fixed some bugs
+
+
+
+German Newspaper 6.x-1.3.0   released on 06.06.2009
+===========================
+
+- fixed some bugs
+
+
+German Newspaper 6.x-2.0.0   released on 23.06.2009
+===========================
+
+- Newslist header added - latest news
+
+
+German Newspaper 6.x-2.1.0   released on 25.06.2009
+===========================
+- php source code changes
+- error fixed
+- page-front.tpl added
+- language support for newslist header implemented
+
+
+
+German Newspaper 6.x-2.2.0   released on 30.06.2009
+===========================
+- theme options added: newslist header, background color/image
+- Issue: #493406
+
+
+
+German Newspaper 6.x-2.3.0   released on 02.07.2009
+===========================
+- IE Anpassungen ---> Issue: #505584
+
+
+
+German Newspaper 6.x-2.4.0   released on 02.07.2009
+===========================
+- IE errors fixed
+
+
+
+German Newspaper 6.x-2.5.0   released on 07.07.2009
+===========================
+- by christiangnoth: possibility of no, one or two sidebars added, stylesheet and php source code changes
+
+
+
+German Newspaper 6.x-2.6.0   released on 07.07.2009
+===========================
+- by christiangnoth: sidebar borders removed
+
+
+
+German Newspaper 6.x-3.0.0   released on 09.07.2009
+===========================
+- feature added by christiangnoth: bottom bars removed
+
+
+
+German Newspaper 6.x-3.1.0   released on 09.07.2009
+===========================
+- by christiangnoth: error fixed
+
+
+
+German Newspaper 6.x-3.2.0   released on 09.07.2009
+===========================
+- by christiangnoth: php source code files removed
+
+
+
+German Newspaper 6.x-3.3.0   released on 20.07.2009
+===========================
+- by christiangnoth: theme footer link changed
+- by christiangnoth: theme style changes: sidebar right, content
+
+
+
+German Newspaper 6.x-3.4.0   released on 23.07.2009
+===========================
+- error fixed by christiangnoth: missing files - images and rotate.php for news headline - added
+
+
+
+German Newspaper 6.x-3.5.0   released on 23.07.2009
+===========================
+- footer link changed -  target="_blank"
+
+
+German Newspaper 6.x-3.6.0   released on 05.04.2010
+===========================
+- footer link changed -  target="_blank"
+
+
+German Newspaper 6.x-3.7.0   released on .04.2010
+===========================
+by christiangnoth: ISSUE ........ header newslist changed
+by christiangnoth: ISSUE Validation - XHTML, CSS error fixed
+by christiangnoth: CSS + XHTML vaildes Design links added to the footer: page-front.tpl.php

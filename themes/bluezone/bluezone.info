@@ -1,0 +1,16 @@
+; $Id: bluezone.info,v 1.2.2.1 2010/07/05 10:29:49 finex Exp $
+
+name = Blue Zone
+description = Simple blue theme.
+version = 2.0
+core = 6.x
+engine = phptemplate
+
+regions[content] = Content
+regions[sidebar] = Sidebar
+; Information added by drupal.org packaging script on 2010-07-05
+version = "6.x-3.2"
+core = "6.x"
+project = "bluezone"
+datestamp = "1278326404"
+

@@ -1,0 +1,96 @@
+/* $Id: style-800.css,v 1.2 2009/06/07 17:00:44 christiangnoth Exp $ */
+
+/*---| main wrapper |---*/
+
+#wrapper
+{
+	text-align:justify;
+	line-height:1em;
+	margin:50px auto 50px auto;
+	padding:20px;
+	background:white;
+	width:800px;
+	max-width:800px;
+	outline:0;
+	vertical-align:baseline;
+}
+
+
+#header h2
+{
+	font-size:44px;
+	font-style:italic;
+	font-weight:bold;
+	font-variant:small-caps;
+	font-family:Georgia;
+	letter-spacing:2px;
+	line-height:1;
+	text-align:center;
+	padding: 0px 20px 0px 50px;
+	position:relative;
+}
+
+
+#news_table_col
+{
+	width:    		135px;
+	border-left:  1px solid #000;
+	border-right: 1px solid #000;
+	margin:      5px 0px 5px 0px;
+}
+
+
+#newslist .left_image
+{
+	position:       relative;
+	margin:         0px 5px 0px 0px;
+	padding:        0px;
+	float:          left;
+	height:         145px;
+	width:          150px;
+}
+
+
+#newslist .right_image
+{
+	position:       relative;
+	margin:         0px 0px 0px 5px;
+	padding:        0px;
+	float:          left;
+	height:         145px;
+	width:          150px;
+}
+
+
+#newslist .post
+{
+	text-transform:	none;
+	text-align:			left;
+	float:					left;
+	width:					135px;
+	height:					80%;
+	padding:				10px;
+	margin:					10px 0px 5px 0px;
+	color:					#000;
+	white-space:		normal;
+	overflow: 			hidden;
+}
+
+
+#content
+{
+	font-size:		12px;
+/*
+margin-left: 175px;
+margin-right: 250px;
+*/
+	width: 				352px;
+	height:       100%;
+	float:        left;
+	position:     relative;
+	padding: 			10px;
+	border-left: 	1px solid #000;
+	border-right: 1px solid #000;
+	display:      block;
+	overflow: 		hidden;
+}

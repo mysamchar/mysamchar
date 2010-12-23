@@ -1,0 +1,31 @@
+; $Id: german_newspaper.info,v 1.6 2010/04/11 16:55:57 christiangnoth Exp $
+name = German Newspaper
+description = Tableless, multi-column, fixed width theme.
+core = 6.x
+engine = phptemplate
+regions[left] 						= Left sidebar
+regions[right] 						= Right sidebar
+regions[content] 					= Content
+regions[header] 					= Header
+regions[header_top_left] 	= Header Top Left
+regions[header_top_right] = Header Top Right
+regions[bottom_bar]       = Bottom Bar
+regions[footer] 					= Footer
+scripts[] 					= script.js
+stylesheets[all][] 	= style.css
+stylesheets[all][]	= style-1024.css
+stylesheets[all][] 	= suckerfish.css
+
+; Information added by drupal.org packaging script on 2009-07-07
+version = "6.x-2.6"
+core = "6.x"
+project = "german_newspaper"
+datestamp = "1246988141"
+
+
+; Information added by drupal.org packaging script on 2010-04-11
+version = "6.x-3.7"
+core = "6.x"
+project = "german_newspaper"
+datestamp = "1271005506"
+

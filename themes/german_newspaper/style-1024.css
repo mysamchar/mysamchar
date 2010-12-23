@@ -1,0 +1,72 @@
+/* $Id: style-1024.css,v 1.4 2010/04/11 16:56:16 christiangnoth Exp $ */
+
+/*---| main wrapper |---*/
+
+/*
+#wrapper
+{
+text-align:justify;
+line-height:1em;
+margin:50px auto 50px auto;
+padding:20px;
+background:white;
+width:1024px;
+max-width:1024px;
+outline:0;
+vertical-align:baseline;
+}
+
+#content
+{
+	font-size:		12px;
+	width: 				576px;
+	height:       100%;
+	float:        left;
+	position:     relative;
+	padding: 			10px;
+	border-left: 	1px solid #000;
+	border-right: 1px solid #000;
+	display:      block;
+	overflow: 		hidden;
+}
+*/
+
+
+
+/*---| class definitions |---*/
+
+
+.two-sidebars
+{
+	width: 						600px;
+}
+
+.one-sidebar
+{
+	width: 						828px;
+}
+
+.wide-page
+{
+	width: 						100%;
+}
+
+
+
+/*---| class definitions end |---*/
+
+
+#header h2
+{
+	font-size:44px;
+	font-style:italic;
+	font-weight:bold;
+	font-variant:small-caps;
+	font-family:Georgia;
+	letter-spacing:2px;
+	line-height:1;
+	text-align:center;
+	position:relative;
+}
+
+

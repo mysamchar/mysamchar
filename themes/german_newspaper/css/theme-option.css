@@ -1,0 +1,37 @@
+/* $Id: theme-option.css,v 1.2 2009/06/07 17:00:44 christiangnoth Exp $ */
+
+/*
+
+	All definitions for the theme option page
+
+*/
+
+
+
+
+/***
+*
+*       set of feature defintions
+*
+****/
+
+#theme_option_set
+{
+	border: 1px solid #000;
+	margin: 5px;
+	padding:10px;
+}
+
+#theme_option_block
+{
+	height:1%;
+	position:relative;
+	display:inline;
+	margin-right: 20px;
+}
+
+#theme_option_entry
+{
+}
+
+

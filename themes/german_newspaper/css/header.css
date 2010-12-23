@@ -1,0 +1,12 @@
+/* $Id: header.css,v 1.2 2009/06/07 17:00:44 christiangnoth Exp $ */
+
+#header
+{
+	height:		auto;
+	text-align:	center;
+	background:	transparent url(..//images/earth_2.gif) no-repeat 25px 10px;
+	border-bottom:	3px solid #000;
+	font-family:	Georgia;
+	margin-bottom: 	5px;
+	width:  	100%;
+}

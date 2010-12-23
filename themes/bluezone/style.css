@@ -1,0 +1,351 @@
+/* $Id: style.css,v 1.2.4.3 2010/07/05 10:29:49 finex Exp $ */
+
+/*
+ *  BlueZone - 2.0
+ *  Author: Finetti Leonardo - FiNeXdesign 2009
+ *  Homepage: http://www.finex.org
+ *  Email: finex@finex.org
+ *  Date: 16/05/20009
+ */
+
+
+body{
+  background-color:white;
+  border:0;
+  margin:0;
+  padding:0;
+  color: #4e4e4e;
+  font: 15px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+
+a, a:link, a:visited, a:active{
+  text-decoration:none;
+  color:white
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+div#main a, div#main a:link, div#main a:visited, div#main a:active{
+  color:#6785a1;
+}
+
+div#primary a{
+  padding:10px;
+}
+
+div#primary a.active{
+  background-color:#6785A1;
+  color:white
+}
+
+div#primary a:hover{
+  background-color:#90BAE1;
+}
+
+div#secondary a.active{
+  background-color:#6785A1;
+}
+
+div#secondary a:hover{
+  background-color:#90BAE1;
+}
+
+div#sidebar a.active{
+  color:#C5DDFB;
+}
+
+#author{
+  padding-top:15px;
+}
+
+.wrapper{
+  width:100%;
+  clear:both;
+}
+
+img{
+  margin:0;
+  padding:0;
+  border:0;
+  line-height:0;
+  font-size:0;
+}
+
+h1, h2, h3, p{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:16px;
+}
+
+#main p{
+  text-indent: 10px;
+}
+
+div#main h1{
+  font-size: 1.8em;
+}
+
+div#main h2{
+  font-size: 1.6em;
+}
+div#main h3{
+  font-size: 1.2em;
+}
+
+div#main h1, div#main h2, div#main h3 {
+  color:#27527a;
+}
+
+div#sidebar h2{
+font-size:1.4em;
+}
+div#secondary{
+  background-color: #27527A;
+  margin:0;
+  border:0;
+  padding:0;
+  font-size:12px;
+  line-height:1.6em;
+}
+
+div#primary{
+  background-color: #27527A;
+  margin:0;
+  border:0;
+  padding:0;
+  font-size:16px;
+  border-top:10px solid #27527A;
+  border-bottom:10px solid #27527A;
+}
+
+div#breadcrumb{
+  background-color: #6785A1;
+  margin:0;
+  border:0;
+  padding:5px 0 5px 0;
+  font-size:12px;
+}
+
+div#secondary .links,
+div#breadcrumb .breadcrumb {
+  text-align:right;
+}
+
+div#header{
+  margin:0;
+  border:0;
+  padding:0;
+  width:100%;
+  height:125px;
+  display:block;
+  background-image:url(img/hdr_bg.jpg);
+  background-position:top left;
+  background-repeat:repeat-x;
+  clear:both;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+}
+
+div#logo{
+  float:left;
+}
+
+div#site_name{
+  padding-top:20px;
+  color:white;
+  float:right;
+  text-align:right;
+}
+
+div#site_name h1{
+  font-size:2.5em;
+  color:white;
+}
+
+div#site_name h1 a:hover{
+  text-decoration:none;
+}
+
+
+div#page{
+  margin:0;
+  border:0;
+  padding:0;
+  border-top:1px solid white;
+  
+  background-image:url(img/grad.jpg);
+  background-position:top left;
+  background-repeat:repeat-x;
+}
+
+div#footer{
+  margin:0;
+  border:0;
+  padding:10px 0 10px 0;
+  width:100%;
+  display:block;
+  background-color:#6785A1;
+  font-size:12px;
+  color:white;
+  border-top:1px solid white;
+}
+
+div.column{
+  clear:both;
+  text-align:left;
+  width:960px;
+  margin:0 auto;
+}
+
+div#page .column{
+  background-image:url(img/bg.jpg);
+  background-position:top left;
+  background-repeat:repeat-y;
+}
+
+div#sidebar{
+  line-height:1.6em;
+  width: 190px ;
+  float:left;
+  color:#d6e3ef;
+  font-size:14px;
+  padding:5px
+}
+
+div#main{
+  width: 730px;
+  float:right;
+  padding:10px 10px 40px 20px;
+  line-height:2em;
+  
+  background-image:url(img/grad.jpg);
+  background-position:top left;
+  background-repeat:repeat-x;
+}
+
+
+.sticky{
+  background-color:#E5EBFF;
+  border:1px solid #27527A;
+  padding:10px;
+}
+
+.block{
+  padding-bottom:20px;
+}
+
+.submitted, .taxonomy{
+  color:#B3B3B3;
+  font-size:0.9em;
+}
+
+.more-link, .node_read_more{
+  font-size:0.9em;
+  font-style: italic;
+}
+
+.node{
+border-bottom:2px dotted #6785A1;
+margin-bottom:25px;
+}
+
+/*
+ * Extra style from drupal default CSS.
+ * The default CSS of drupal is removed from the template.php
+ */
+
+/* Animated throbber */
+html.js input.form-autocomplete {
+  background-image: url(../../misc/throbber.gif);
+  background-repeat: no-repeat;
+  background-position: 100% 2px;
+}
+html.js input.throbbing {
+  background-position: 100% -18px;
+}
+fieldset {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #d9eaf5;
+}
+fieldset legend {
+  /* Fix disappearing legend in FFox */
+  display: block;
+}
+/* Collapsing fieldsets */
+html.js fieldset.collapsed {
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  margin-bottom: 0;
+  height: 1em;
+}
+html.js fieldset.collapsed * {
+  display: none;
+}
+html.js fieldset.collapsed legend {
+  display: block;
+}
+html.js fieldset.collapsible legend a {
+  padding-left: 2em;
+  background: url(img/menu-expanded.gif) no-repeat 0% 50%;
+}
+html.js fieldset.collapsed legend a {
+  background: url(img/menu-collapsed.gif) no-repeat 0% 50%;
+}
+/* Note: IE-only fix due to '* html' (breaks Konqueror otherwise). */
+* html.js fieldset.collapsed legend,
+* html.js fieldset.collapsed legend *,
+* html.js fieldset.collapsed table * {
+  display: inline;
+}
+html.js fieldset.collapsible legend a {
+  display: block;
+}
+/* Avoid jumping around due to margins collapsing into collapsible fieldset border */
+html.js fieldset.collapsible .fieldset-wrapper {
+  overflow: auto;
+}
+/* Resizable text areas */
+.resizable-textarea {
+  width: 95%;
+}
+.resizable-textarea .grippie {
+  height: 9px;
+  overflow: hidden;
+  background: #eee url(../../misc/grippie.png) no-repeat center 2px;
+  border: 1px solid #ddd;
+  border-top-width: 0;
+  cursor: s-resize;
+}
+html.js .resizable-textarea textarea {
+  margin-bottom: 0;
+  width: 100%;
+  display: block;
+}
+/* Progressbar styles */
+.progress {
+  font-weight: bold;
+}
+.progress .bar {
+  background: #fff url(../../misc/progress.gif);
+  border: 1px solid #00375a;
+  height: 1.5em;
+  margin-top: 0.2em;
+}
+.progress .filled {
+  background: #0072b9;
+  height: 1em;
+  border-bottom: 0.5em solid #004a73;
+  width: 0%;
+}
+.progress .percentage {
+  float: right;
+}
+.poll .bar .foreground{
+  background-color:#27537A;
+}

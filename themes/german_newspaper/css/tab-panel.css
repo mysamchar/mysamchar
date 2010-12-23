@@ -1,0 +1,97 @@
+/* $Id: tab-panel.css,v 1.2 2009/06/07 17:00:44 christiangnoth Exp $ */
+
+/***
+*
+*
+*     All definitions for the Tab Panel and tabs
+*
+*
+*/
+
+#tab_panel_container
+{
+	width:100%;
+	height:auto;
+	margin: 0px;
+	padding:5px 0px 5px 0px;
+	position:relative;
+	float:left;
+}
+
+
+
+#tab_panel_body
+{
+	background-color: #F5F5F5;
+	float:          left;
+	position:       relative;
+	padding:        0px;
+	border:					1px solid #EEE;
+	overflow:       hidden;
+	font-size:      12px;
+	text-align:     left;
+	width:          100%;
+	height: auto;
+}
+
+#tab_panel_body ul li.widget
+{
+	position:	relative;
+	display:	inline;
+	float:  	left;
+	font-size:12px;
+	margin:		5px;
+	padding: 	5px;
+	vertical-align: top;
+	width:    auto;
+	height:   auto;
+}
+
+#tab_panel_body img
+{
+	max-width:  none;
+}
+
+
+
+#tab_panel_tabs_container
+{
+	height: 	25px;
+	padding:  0px;
+	float:    top;
+}
+
+#tab_panel_tab
+{
+	text-align: center;
+	float:    	left;
+	display:    inline;
+	width:      auto;
+	height:     auto;
+	margin:     0px;
+}
+
+#tab_panel_tab  a
+{
+	border: 		1px solid #EEE;
+	font-size:  12px;
+	width:      100%;
+	padding:  	5px 15px 5px 15px;
+}
+
+.tab_active
+{
+	background-color: #F5F5F5;
+	border-bottom:    none;
+}
+
+.tab_inactive
+{
+	background-color: #FFF;
+}
+
+
+
+
+
+

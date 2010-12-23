@@ -1,0 +1,135 @@
+/* $Id: suckerfish.css,v 1.6 2010/04/11 16:56:16 christiangnoth Exp $ */
+
+/*
+/*
+/*  Stylesheet definitions for implementation of
+/*  Suckerfish Drop Down Menu's
+/*
+/*
+*/
+
+#nav
+{
+	padding:			0;
+	margin:				0;
+	list-style: 	none;
+	line-height:	1em;
+	z-index:      1;
+  width: 				auto;
+	w\idth: 			auto;
+  font-size: 		0.8em;
+  height: 			30px;
+}
+
+#nav ul
+{
+	padding: 			0;
+  margin:				0;
+	list-style: 	none;
+	line-height:	1em;
+}
+
+#nav li
+{
+	width:        15em;
+	w\idth: 			15em;
+  float: 				left;
+  list-style: 	none;
+  background: 	#fff;
+  backgr\ound: 	#fff;
+	line-height:	1em;
+}
+
+#nav ul li
+{
+	width: 				auto;
+	w\idth: 			auto;
+	margin:       0 5px 0 0;
+	ma\rgin:      0 5px 0 0;
+  position: 		relative;
+  float:    		left;
+  display:  		inline;
+	z-index:  		1;
+	z-\index:  		1;
+  overflow: 		visible;
+}
+
+#nav ul ul li
+{
+  margin: 			0;
+  padding: 			0;
+  width:    		11em;
+	w\idth: 			11em;
+  position: 		relative;
+  float:    		left;
+  display:  		block;
+}
+
+
+#nav ul ul li li
+{
+  margin: 			0;
+  padding: 			0;
+  position: 		relative;
+  float:    		left;
+  display:  		inline;
+}
+
+
+#nav ul ul ul
+{
+  margin: 			0;
+  padding: 			0;
+  overflow: 		visible;
+}
+
+
+#nav ul.links li, #topnav ul.links li
+{
+	padding: 			0;
+}
+
+#nav li ul {
+	position: 		absolute;
+/*	width: 8em; */
+	left: 				-999em;
+	lef\t:        -999em;
+/*	visibility: hidden; */
+/*	display:  none; */
+	z-index:  		1;
+	z-\index:  		1;
+  overflow: 		visible;
+}
+
+
+#nav li ul ul
+{
+	margin: 			-2em 0 0 11em;
+	ma\rgin:      -2em 0 0 11em;
+/*	margin: 0; */
+/*	position: relative;
+	float:    left;
+	display:  inline;
+	z-index:  1;
+  overflow: visible; */
+}
+
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul, #nav li.sfhover ul ul ul ul {
+	left: 				-999em;
+	lef\t:        -999em;
+/*	visibility: hidden; */
+/*	display:  none; */
+	z-index:  		1;
+	z-\index:  		1;
+  overflow: 		visible;
+}
+
+
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul, #nav li li li li.sfhover ul {
+	left: 				auto;
+	lef\t:        auto;
+	z-index:  		1;
+	z-\index:  		1;
+  overflow: 		visible;
+}
